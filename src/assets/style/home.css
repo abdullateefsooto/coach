@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+ .the {
+  font-weight: 50px;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: var( --blue-wee);
+}
+.them{
+  font-size: x-large;
+}
+.they {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: var(--blue);
+}
+
+.link {
+  background-color: var(--blue-light);
+  padding: 8px;
+}
+.san{
+  font-size: large;
+  text-transform: capitalize;
+  list-style: disc;
+}
+
+
+.san:hover{
+  color: var(--blue);
+}
+.big{
+    margin-bottom: 12px;
+}

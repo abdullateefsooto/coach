@@ -1,0 +1,28 @@
+.content {
+  margin-left: 10px;
+  justify-content: center;
+  padding: 20px;
+  color: var(--black);
+}
+.me{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 80px;
+}
+.both{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: var(--blue-light);
+  padding: 60px;
+}
+.both{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.conten{
+  font-size: xx-large;
+}

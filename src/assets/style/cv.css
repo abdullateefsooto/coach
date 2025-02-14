@@ -1,0 +1,17 @@
+.cv{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 16px;
+}
+.but button{
+    padding: 4px 8px;
+    text-transform: capitalize;
+    background-color: var(--blue-navy);
+    font-size: xx-large;
+}

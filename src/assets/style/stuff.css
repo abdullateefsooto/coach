@@ -1,0 +1,251 @@
+/* body{
+  background: rgba(0, 0, 0, 0.664);
+} */
+/* .navbar{
+  display: flex;
+  margin-top: 12px;
+  gap: 50px;
+} */
+/* .navbar a{
+  color: rgba(10, 34, 245, 0.801);
+  text-decoration: none;
+  font-size: x-large;
+  text-transform: capitalize;
+} */
+/* .navbar a:hover{
+  color: blue;
+} */
+/* .nav-bar{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 8px 16px;
+} */
+
+/* .aaa{
+  width: 50px;
+} */
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* .content {
+  margin-left: 10px;
+  justify-content: center;
+  padding: 20px;
+} */
+/* .the {
+  font-weight: 50px;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+} */
+/* .them{
+  font-size: x-large;
+} */
+/* .they {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: green;
+} */
+
+/* .link {
+  background-color: rgba(71, 215, 71, 0.568);
+  padding: 8px;
+} */
+/* .san{
+  font-size: large;
+  list-style-type: disc;
+  text-transform: capitalize;
+} */
+
+/* .san:hover{
+  color: rgb(6, 73, 6);
+} */
+/* .big{
+  margin-bottom: 12px;
+} */
+/* .me{
+  text-transform: uppercase;
+  text-align: center;
+} */
+/* .both{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+} */
+/* .conten{
+  font-size: xx-large;
+} */
+/* .git img {
+  width: 400px;
+} */
+/* .umar {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: x-large;
+  color: #0e653f;
+  margin-top: 5px;
+  align-items: center;
+} */
+/* .setion {
+  margin: 16px;
+  background-color: wheat;
+  color: #000;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 400px;
+  margin-left: 30%;
+  box-shadow: 0 8px 16px rgb(3, 3, 3);
+  height: 400px;
+  font-size: x-large;
+  text-transform: capitalize;
+} */
+/* .sand{
+  list-style: none;
+} */
+/* .sec{
+  margin: 16px;
+  background-color: wheat;
+  color: #000;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 400px;
+  margin-left: 30%;
+  box-shadow: 0 8px 16px rgb(3, 3, 3);
+  height: 400px;
+  font-size: xx-large;
+  text-transform: capitalize;
+  padding-top: 4px;
+} */
+/* .grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+} */
+/* .work{
+  text-align: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+// import { useGlobalContext } from "../context"
+import "../assets/style/conatact.css"
+import call from "../assets/undraw_contact-us_kcoa.svg"
+
+const MyContact = () => {
+  // const {firstName, increase} = useGlobalContext()
+    const form = useRef
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+      .sendForm('service_igulvid', 'template_wxss3h8', form.current, {
+        publicKey: 'FLKknnwaFnd4Cy6XO',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  return (
+    <div>
+    {/* <p>{firstName}</p>
+    <button onClick={increase}>click</button> */}
+      <div className="gass">
+        <div><img src={call} width={800} alt="" /></div>
+        <form ref={form} action="" className="form">
+            <label htmlFor="name"><i className="fa-duotone fa-solid fa-user"></i></label>
+            <input type="text" name="name" id="name" placeholder="fullname" />
+            <br />
+            <label htmlFor="tel"><i className="fa-duotone fa-solid fa-phone"></i></label>
+            <input type="tel" name="tel" id="tel" placeholder="phone" />
+            <br />
+            <label htmlFor="email"><i className="fa-duotone fa-solid fa-envelope"></i></label>
+            <input type="email" name="email" id="email" placeholder="user@gmail.com" />
+            <br />
+            <label htmlFor="message"><i className="fa-duotone fa-solid fa-pencil pen"></i></label>
+            <textarea name="message" id="message" placeholder="comment your message "></textarea>
+            <br />
+            <button className="send">send</button>
+        </form> 
+      </div>
+      
+    </div>
+  )
+}
+
+export default MyContact

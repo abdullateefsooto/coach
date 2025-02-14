@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    margin-top: 12px;
+    gap: 50px;
+}
+.navbar a{
+    color: var(--blue);
+    text-transform: capitalize;
+    font-size: x-large;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: var(--blue-dark);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black);
+    padding: 8px 16px;
+}
+.aaa{
+    width: 50px;
+}

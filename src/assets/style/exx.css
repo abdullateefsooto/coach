@@ -1,0 +1,42 @@
+.git img {
+  width: 400px;
+}
+.setion {
+  margin: 16px;
+  background-color: wheat;
+  color: #000;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 400px;
+  margin-left: 30%;
+  box-shadow: 0 8px 16px rgb(3, 3, 3);
+  height: 400px;
+  font-size: x-large;
+  text-transform: capitalize;
+}
+.sand{
+  list-style: none;
+}
+.sec{
+  margin: 16px;
+  background-color: wheat;
+  color: #000;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 400px;
+  margin-left: 30%;
+  box-shadow: 0 8px 16px rgb(3, 3, 3);
+  height: 400px;
+  font-size: xx-large;
+  text-transform: capitalize;
+  padding-top: 4px;
+}
+.flex{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.work{
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+.foot{
+    margin-top: auto;
+    background-color: var(--black);
+    color: var(--blue);
+    text-align: center;
+    padding: 8px 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: x-large;
+  }
+  .app{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .feet{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    font-size: x-large;
+    color: var(--blue);
+    }
+  .feet a{
+    color: var(--blue);
+  }
+  .feet a :hover{
+    color: var(--blue-dark);
+  }

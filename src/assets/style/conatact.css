@@ -1,0 +1,37 @@
+.gass{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form label{
+    margin-left: 90px;
+    font-size: xx-large;
+    color: var(--blue-wee);
+}
+.form input{
+    margin-top: 10dvh;
+    width: 60dvh;
+    margin-left: 6px;
+    height: 6dvh;
+    background-color: transparent;
+}
+
+.form textarea{
+    height: 20dvh;
+    width: 60dvh;
+    margin-top: 30px;
+}
+.send{
+    margin-left: 120px;
+    background-color: var(--blue-wee);
+    padding: 8px 16px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-size: x-large;
+}
+.act{
+    color: var(--blue-wee);
+    text-transform: capitalize;
+    margin-left: 120px;
+    font-size: x-large;
+}
