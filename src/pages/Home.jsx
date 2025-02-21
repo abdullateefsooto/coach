@@ -16,7 +16,7 @@ const Home = () => {
           <h1 className='the'>Building the future, one line of code at a time</h1>
           <p className='them'>Welcome i am Abdullateef,A software engineer crafting tech solutions with precision and an edtech advocate driven to innovate in education together on my journey </p>
         </div>
-        <div><img src={svg} alt="" width="100%"/></div>
+        <div className='class'><img src={svg} alt="" width="100%" /></div>
     </div>
     <div className='link'>
       <h1 className='they'>my skill</h1>

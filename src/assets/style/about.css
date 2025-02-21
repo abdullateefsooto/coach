@@ -26,3 +26,15 @@
 .conten{
   font-size: xx-large;
 }
+@media screen and (max-width: 768px) {
+  .both{
+     display: block;
+     padding: 8px 16px;
+  }
+  .glass img{
+    width: 400px;
+  }
+  .glass{
+    text-align: center;
+  }
+}

@@ -37,3 +37,29 @@
 .big{
     margin-bottom: 12px;
 }
+
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+  .container {
+    display: block;
+    font-weight: normal;
+    padding: 8px 16px ;
+    margin-top: 10px;
+  }
+  .the {
+    font-size: 40px;
+    font-weight: 90px;
+    color: var( --blue-wee);
+    margin: 0%;
+  }
+  .class img{
+    width: 400px;
+  }
+  .class{
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+

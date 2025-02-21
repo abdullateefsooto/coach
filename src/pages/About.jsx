@@ -16,7 +16,7 @@ const About = () => {
             </div>
               <h1 className='me'>skills</h1>
               <div className='both'>
-                    <div className="molly">
+                    <div className="glass">
                       <img src={molly} width="500px" alt="" />
                     </div>
                     <div className="conten">

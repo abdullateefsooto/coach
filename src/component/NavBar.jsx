@@ -12,7 +12,7 @@ const NavBar = () => {
             {/* <NavLink to='experience'>experience</NavLink> */}
             <NavLink to='contact'>contact</NavLink>
             <NavLink to='resume'>resume</NavLink>
-            <NavLink to='github'>github user</NavLink>
+            {/* <NavLink to='github'>github user</NavLink> */}
         </div>
     </div>
   )

@@ -31,7 +31,7 @@ const MyContact = () => {
   return (
     <div>
         <div className='gass'>
-        <div><img src={call} width={800} alt="" /></div>
+        <div className='grass'><img src={call} width={800} alt="" /></div>
     <form className='form' ref={form} onSubmit={sendEmail}>
       <label><i className="fa-duotone fa-solid fa-user"></i></label>
       <input type="text" name="name" id="name" placeholder="fullname" />
