@@ -14,6 +14,7 @@ const NavBar = () => {
             <NavLink to='resume'>resume</NavLink>
             {/* <NavLink to='github'>github user</NavLink> */}
         </div>
+        <div><i className="fa-solid fa-bars"></i></div>
     </div>
   )
 }
