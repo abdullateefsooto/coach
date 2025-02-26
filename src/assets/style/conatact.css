@@ -35,9 +35,9 @@
     margin-left: 120px;
     font-size: x-large;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .gass{
-        display: block;
+        /* display: block; */
         padding: 8px 16px;
     }
     .grass img{
