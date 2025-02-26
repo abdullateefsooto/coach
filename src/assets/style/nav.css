@@ -21,3 +21,8 @@
 .aaa{
     width: 50px;
 }
+@media screen and (max-width: 767px) {
+    .navbar{
+        display: none;
+    }
+}
