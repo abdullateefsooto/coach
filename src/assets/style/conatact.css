@@ -35,7 +35,7 @@
     margin-left: 120px;
     font-size: x-large;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .gass{
         /* display: block; */
         padding: 8px 16px;

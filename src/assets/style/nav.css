@@ -4,6 +4,7 @@
     gap: 50px;
 }
 .navbar a{
+    /* justify-content: space-around; */
     color: var(--blue);
     text-transform: capitalize;
     font-size: x-large;
