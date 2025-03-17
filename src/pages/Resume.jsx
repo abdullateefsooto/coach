@@ -1,4 +1,4 @@
-import cv from "../assets/CV.pdf"
+import cv from "../assets/My_resume.pdf"
 import "../assets/style/cv.css"
 
 
